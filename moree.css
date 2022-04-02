@@ -1,0 +1,142 @@
+
+@media (min-width:1400px)   {
+    .banner, .skills, .ex-timeline, .portfolios, .contact-section {
+       background-repeat: no-repeat; 
+        background-attachment: fixed;
+        background-position: center; 
+     }
+  }
+  @media (max-width: 800px) and (min-width: 300px) {
+    img {
+      width: 30vw; 
+      height: 30vh;
+    }
+    h1 {
+      font-size: 12vw;
+    }
+    h2 {
+      font-size: 8vw;
+    }
+    h3 {
+      font-size: 6vw;
+    }
+    p {
+      font-size: 6vw;
+    }
+    .skill {
+      font-size: 5vw;
+    }
+    ul {
+      font-size: 4.5vw;
+      width: 80%;
+    }
+    #skills-label {
+      font-size: 13vw;
+    }
+    .banner {
+      background-size: 100% 100%;
+      height: 550px;
+    }
+    .title {
+      padding-bottom: 10px;
+      width: 90%;
+      top: 100px;
+    }
+    .border {
+      width: 25%;
+      border-width: 2px;
+    }
+    .resume,.contact {
+      top: 110px;
+      position: relative;
+      padding-bottom: 10px;
+      transform: scale(1);
+    }
+    .resume:hover{
+      transform: scale(1.1);
+    }
+    .small-intro { 
+      padding-top: 40px;
+    }
+    #small-intro {
+      width: 80%;
+      font-size: 5vw;
+      padding-bottom: 40px;
+    }
+    #borderText {
+      font-size: 5.5vw;
+    }
+    #qualif {
+      font-size: 6.5vw;
+    }
+    .titles {
+      width: 85%;
+    }
+    #title {
+      padding-bottom: 15px;
+      font-size: 12vw;
+    }
+    #skills-label {
+      font-size: 10vw;
+      padding-bottom: 10px;
+    }
+    #footer {
+      font-size: 3vw;
+    }
+    .timeline {
+      left: 0;
+    }
+    .timeline-thumbnail {
+      font-size: 3.5vw;
+    }
+    .timeline:before {
+      width: 2px;
+    }
+    #workplace {
+      font-size: 8vw;
+    }
+    #jobPos {
+      font-size: 6vw;
+    }
+    #jobDesc {
+      font-size: 5vw;
+      width: 100%;
+    }
+    #liveDemo {
+      padding-left: 5%;
+      padding-right: 14%;
+      font-size: 5.5vw;
+    }
+    #sourceCode {
+      font-size: 5.5vw;
+    }
+    .view {
+      font-size: 5.5vw;
+    }
+  }
+
+body{
+    background: linear-gradient(to right , rgb(219, 2, 38) , rgb(198, 3, 150));
+    
+
+}
+.card{
+   
+    margin: auto;
+    align-items: center;
+    color: white;
+     background: linear-gradient(to right , rgb(175, 175, 179) ,  rgb(12, 12, 12));
+     padding-top: 10px;
+     margin-top: 150px;
+     border: 3px solid rgb(120, 211, 203);
+    
+     border-top-left-radius: 0%;
+     border-top-right-radius: 0%;
+     height: 300px;
+     width: 50%;
+   
+}
+
+a{
+    background-color: rgb(105, 253, 255);
+}

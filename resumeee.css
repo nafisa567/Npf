@@ -1,0 +1,147 @@
+
+@media(max-width: 812px){
+  
+    .container{
+      padding: 1%;
+    }
+    
+    .photo_frame .photo img{
+      height: 30vh;
+    }
+    
+    .photo_frame{
+      height: 30vh;
+      border: 5px solid;
+    }
+    
+    .menu{
+      padding: 0px;
+    }
+    
+    .menu .text{
+      padding: 0px;
+      margin-left: 1%;
+    }
+    
+    .menu .text .top_text{
+      font-size: 13px;
+    }
+    
+    .menu .text .center_text{
+      font-size: 28px;
+    }
+    
+    .menu .text .bottom_text{
+      font-size: 15px;
+    }
+    
+    .my_info button{
+      font-size: 11px;
+      font-weight:bold;
+    }
+    
+    .about_me .about_text{
+      font-size: 12px;
+    }
+    
+    .skill_body .title h4{
+      font-size: 12px;
+    }
+    
+    .my_skills .row .skill .row .desc {
+      font-size: 10px;
+    }
+    
+    .my_skills .row .skill_body {
+      min-height: 140px;
+    }
+    
+    .my_skills .row .skill .row .image img{
+      width: 30px;
+      height: 30px;
+    }
+    
+    .works .display_box .projects_holder .project .project_body .project_info{
+      padding: 2px;
+    }
+    
+    .works .display_box .projects_holder .project .project_info .title h3{
+      font-size: 1rem;
+    }
+    
+    .works .display_box .projects_holder .project .project_info .date{
+      font-size: 11px;
+    }
+    
+    .works .display_box .projects_holder .project .project_info .desc{
+      font-size: 10px;
+    }
+    
+    .size_32{
+      font-size:22px;
+    }
+  
+    .size_24{
+      font-size: 14px;
+    }
+  
+    .size_26{
+      font-size: 16px;
+    }
+  
+    .size_34{
+      font-size: 24px;
+    }
+  
+    .size_22{
+      font-size: 12px;
+    }
+  
+    .size_25{
+      font-size: 15px;
+    }
+  
+    .size_45{
+        font-size: 25px;
+     }
+    
+    .about_me .portfolio{
+      border-left: none;
+      margin-top: 20px;
+    }
+    
+  }
+  
+  @media(max-width: 1024px){
+    .photo_frame{
+      height: 36vh;
+    }
+        .photo_frame .photo img{
+          height: 35vh;
+        }
+  }
+  
+   /* above are media which directyly copy past from google */
+  .row{
+    margin: 0px;
+    padding: 0px;
+  }
+  .container{
+    padding-left: 90px;
+    padding-right: 90px;
+  }  
+  body {
+    /* background: linear-gradient(to right, #000000 0%, #7e7177 100%); */
+    background: linear-gradient(to left , rgb(220, 87, 109) , hotpink);
+    font-size: 12px;
+  }
+  .abo{
+      font-size: 1cm;
+      font-family: cursive;
+     
+     
+     
+  }
+  
+ 
+  
